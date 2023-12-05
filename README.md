@@ -4,7 +4,7 @@ This proyect was requested as part of the 4th Semester at my University under th
 
 The code consists of the creation of three main classes: Factory, App and Person.
 
-In the `Person` class, a `Person` Object class is created, which has two attributes `(Identifier and Name)`. The general idea of the program is to be able to alter the type of data structure with which the list is generated and also to be free to sort it in `ascending` or `descending` order.
+In the `Person` class, a `Person` Object is created, which has two attributes `(Identifier and Name)`. The general idea of the program is to be able to alter the type of data structure with which the list is generated and also to be free to sort it in `ascending` or `descending` order.
 
 The `Person` class implements the `get()` methods for each attribute, in addition to the `compareTo()` method which was extracted from the Comparable interface, which compares the `Person` instances based on their identifiers (ID), allowing the comparison necessary for sorting, and then there is the `toString()` method.
 
