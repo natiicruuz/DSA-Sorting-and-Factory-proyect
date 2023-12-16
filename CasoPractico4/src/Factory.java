@@ -8,7 +8,7 @@ public class Factory {
 	public static <T extends Comparable<T>> List<T> createList() { // creamos la lista, puede ser con arraylist o linkedlist
 		
 		List<T> lista = new ArrayList<>();
-		//List<T> lista = new ArrayList<>();
+		//List<T> lista = new LinkedList<>();
 
 
 		return lista;
